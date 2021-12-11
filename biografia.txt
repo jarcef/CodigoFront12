@@ -1,8 +1,8 @@
 Hola mi nombre es Julissa Arce
 Soy ingeniera de Sistemas
 y me gusta el cebiche
-tengo 2 hermanas y 2 hermanos y 4 sobrinos
+tengo 2 hermanas, 2 hermanos y 4 sobrinos
 
-Por navidad me gusta comer pollo
+Por navidad prefiero comer pollo
 
 Esto lo estoy haciendo en mi rama de julissa_dev y quiero que los cambios se junten con main
