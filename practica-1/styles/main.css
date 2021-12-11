@@ -60,7 +60,6 @@ body {
   
   .container figure{
       margin: 10px;
-
   }
   /*
   HOME
@@ -79,18 +78,18 @@ body {
     font-size: 16px;
 }
 .link-servicio li:nth-child(1){
-    color: red;
+    color: red;   
 }
 
 .link-servicio li:nth-child(2){
-    color: blue;
+    color: blue;   
 }
 
 .link-servicio li:nth-child(3){
-    color: yellowgreen;     
+    color: yellowgreen;    
 }
 .link-servicio li:nth-child(4){
-    color: turquoise;
+    color: turquoise;   
 }
   /*
   PORTAFOLIO
@@ -101,16 +100,16 @@ body {
     font-size: 16px;
   }
   .link-portafolio li:nth-child(1){
-      color: goldenrod;
+      color: goldenrod;     
   }
   .link-portafolio li:nth-child(2){
-      color: indianred;
+      color: indianred;     
   }
   .link-portafolio li:nth-child(3){
-      color: black;
+      color: black;      
   }
   .link-portafolio li:nth-child(4){
-      color:olivedrab;
+      color:olivedrab;     
   }
   /*
   CONTACTO
@@ -123,6 +122,7 @@ body {
 
   .link li{
       margin: 15px 0px 15px 0px;
+      font-weight: 700;
   }
   .link nav{
     margin: 40px 0px 40px 30px;
