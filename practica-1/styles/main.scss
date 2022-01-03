@@ -1,0 +1,157 @@
+/*
+GLOBAL
+estilos globales, aca ira los selectores de 
+etiquetas globales
+*/
+body {
+    font-size: 14px;
+    font-family: arial;
+  }
+  
+  h2 {
+    font-size: 24px;   
+  }
+
+  h3 {
+      margin-bottom: 8px;
+      margin-bottom: 18px;
+  }
+ 
+  p{
+      line-height: 22px;
+      margin-bottom: 20px;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  /*HEADER
+  aca iran estilos del header
+  */
+  .header {
+        background: green;        
+        padding: 20px;
+        display: flex;
+        justify-content:space-between; 
+        align-items: center;      
+  }
+  .header a {
+      color: white;
+      text-decoration: none;  
+      
+  }
+  .header ul {
+      display: flex;     
+  }
+
+  .header li{
+      font-size: 12px;
+      margin: 4px;
+  }
+  .header .logo{
+      font-size: 28px;      
+  }
+  
+  .container{
+      display: flex; 
+      padding-right: 100px;
+      margin-bottom: 40px;  
+  }
+  
+  .container figure{
+      margin: 10px;
+  }
+  /*
+  HOME
+  aca iran estilos de la seccion home*/
+  section .home{
+      color: blue;
+      font-weight: bold;
+      font-size: 16px;
+  }  
+  /*
+  SERVICIOS
+  aca iran estilos de la seccion servicios*/
+  section .servicios{
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+}
+.link-servicio li:nth-child(1){
+    color: red;   
+}
+
+.link-servicio li:nth-child(2){
+    color: blue;   
+}
+
+.link-servicio li:nth-child(3){
+    color: yellowgreen;    
+}
+.link-servicio li:nth-child(4){
+    color: turquoise;   
+}
+  /*
+  PORTAFOLIO
+  aca iran estilos de la seccion portafolio*/
+  section .portafolio{
+    color: olivedrab;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .link-portafolio li:nth-child(1){
+      color: goldenrod;     
+  }
+  .link-portafolio li:nth-child(2){
+      color: indianred;     
+  }
+  .link-portafolio li:nth-child(3){
+      color: black;      
+  }
+  .link-portafolio li:nth-child(4){
+      color:olivedrab;     
+  }
+  /*
+  CONTACTO
+  aca iran estilos de la seccion contacto*/
+  section .contacto{
+    color: aqua;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .link li{
+      margin: 15px 0px 15px 0px;
+      font-weight: 700;
+  }
+  .link nav{
+    margin: 40px 0px 40px 30px;
+  }
+  .dato-persona{
+      width: 100%;
+      height: 40px;
+      margin-bottom: 15px;
+  }
+  .detalle-persona{
+      width: 100%;
+      height: 100px;
+      margin-bottom: 15px;
+  }
+  .button{
+      width: 100px;
+      height: 60px;
+      font-size: 14px;
+      background: white;
+      border: 1px solid rgb(137, 230, 137);
+  }
+  /*
+  FOOTER
+  aca iran estilos de la seccion footer*/
+  .footer{
+      background: green;
+      padding: 16px;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      font-size: 10px; 
+  }
