@@ -6,15 +6,17 @@
     max-width: 960px;
     margin: auto;
 }
+
 h2{
     font-weight: 900;
     font-size: 28px;
     color: #0098EF;
     display:inline;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;   
 }
+
 h2:hover{
-    text-decoration: underline;
+   /* text-decoration: underline; */
 }
 
 
@@ -25,11 +27,13 @@ h2:hover{
     display: flex;
     justify-content: space-between;
 }
+
 .header ul{
     display: flex;
     justify-content: space-around;
     align-items: center;    
 }
+
 .header li{
     margin: 10px;
     padding-bottom: 10px;    
@@ -131,6 +135,8 @@ h2:hover{
     display: grid;
     grid-template-columns: repeat(3,1fr);    
     grid-gap: 14px;
+    padding-top: 30px;
+    padding-bottom:60px;
 }
 
 .blog_grid b{
@@ -146,6 +152,10 @@ h2:hover{
    padding-right: 10px;
 }
 
+.blog_articulo_4 .articulo4_parrafo{
+    padding-left: 10px;
+}
+
 .blog_articulo_4 div{ 
 
 }
@@ -158,6 +168,8 @@ h2:hover{
     font-size: 18px;
     line-height: 27px;
 }
+
+
 
 .blog_grid h3{
     font-size: 12px;
@@ -180,7 +192,6 @@ h2:hover{
     margin-bottom: 10px;
    
 }
-
 
 /* Services */
 .services_grid{
@@ -223,8 +234,6 @@ h2:hover{
 }
 
 /*Contact */
-
-
 
 .contact form{
     display: flex;
