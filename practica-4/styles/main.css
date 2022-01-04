@@ -19,19 +19,19 @@ h2:hover{
    /* text-decoration: underline; */
 }
 
-
-
 /*header*/
 
 .header{
     display: flex;
     justify-content: space-between;
+    padding-top:18px;
 }
 
 .header ul{
     display: flex;
     justify-content: space-around;
-    align-items: center;    
+    align-items: center;
+    font-family: 'Poppins';    
 }
 
 .header li{
@@ -63,12 +63,6 @@ h2:hover{
     margin-bottom: 20px;
 }
 
-.profile{
-    position: relative;
-}
-.profile img{
-    position: absolute; 
-}
 .sobre_mi{
     display: flex;
     flex-wrap: wrap;
@@ -91,11 +85,13 @@ h2:hover{
     font-weight: bold;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-family: 'Poppins';
 }
 .sobre_mi .descripcion .nombre{
     color: #262626;
     font-size: 32px;
     font-weight: bold;
+    font-family: 'Poppins';
 }
 /*Download*/
 .download{
