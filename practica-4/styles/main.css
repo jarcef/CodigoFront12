@@ -12,11 +12,8 @@ h2{
     font-size: 28px;
     color: #0098EF;
     display:inline;
-    font-family: 'Poppins', sans-serif;   
-}
-
-h2:hover{
-   /* text-decoration: underline; */
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 /*header*/
@@ -39,8 +36,7 @@ h2:hover{
     padding-bottom: 10px;    
 }
 .header a{
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .header a:hover {
@@ -58,16 +54,37 @@ h2:hover{
 .descripcion .about_me{
     border-left:solid #80E7CA 5px;
     padding-left: 20px;
-    padding: 10px 30px 10px 20px;
+    padding: 10px 60px 10px 20px;
     line-height: 20px;
     margin-bottom: 20px;
+    text-align: justify;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.lista_contactos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista_contactos button{
+    background: #6D0AD3;
+    width: 162px;
+    height: 44px;
+    color: #EDE2FA;
 }
 
 .sobre_mi{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: flex;    
+    justify-content: space-between;
     padding-bottom: 50px;
+    margin: 40px;
+}
+
+.sobre_mi .profile{
+    display: flex;
+    justify-content: space-between;
 }
 
 .saludo{
@@ -76,23 +93,35 @@ h2:hover{
     padding-bottom: 10px;
 }
 
-.sobre_mi div{
-    width: 50%;
-}
 .sobre_mi .descripcion .perfil{
     color: #00CF95;
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 40px;
+    font-weight: 700;
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: 'Poppins';
 }
+
 .sobre_mi .descripcion .nombre{
     color: #262626;
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: 'Poppins';
 }
+.redes_sociales{
+    display: flex;
+    padding-right: 60px
+    
+}
+
+.descripcion{
+    padding-right: 40px
+}
+
+.redes_sociales ul{
+    display: flex;
+}
+
 /*Download*/
 .download{
     padding-top: 20px;
@@ -146,47 +175,67 @@ h2:hover{
 
 .blog_articulo_2 .articulo2_parrafo{   
    padding-right: 10px;
+   font-family: 'Raleway';
 }
 
 .blog_articulo_4 .articulo4_parrafo{
     padding-left: 10px;
+    font-family: 'Raleway';
 }
 
-.blog_articulo_4 div{ 
-
-}
 .blog_articulo_2, .blog_articulo_4, .blog_articulo_3{
     font-size: 11px;
     line-height: 20px;
 }
 
-.blog_articulo_5{
-    font-size: 18px;
-    line-height: 27px;
-}
-
-
-
 .blog_grid h3{
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 4px;
     border-left: solid 5px #C4C4C4 ;
     margin-bottom: 10px;
 }
 
-
 .blog_grid .blog_articulo_1{
     grid-row-end: span 2;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 25px;   
 }
 
 .blog_grid .blog_articulo_1 .blog_title{
     border-left: #5A0CB0 solid 5px;
     padding: 8px;
-    margin-bottom: 10px;
-   
+    margin-bottom: 10px;   
+}
+
+.blog_articulo_5{
+    font-size: 18px;
+    line-height: 27px;
+    font-family: 'Raleway';
+    font-weight: 400;
+}
+
+.div_articulo5{
+    margin-top: 20px;
+    width: 100%;
+    border: solid 0.5px;
+    border-radius: 5px;
+    height: 50px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.div_articulo5 button{
+    height: 50px;
+    width: 127px;
+    background-color: #6D0AD3;
+    font-size: 13px;
+    color: #EDE2FA;   
 }
 
 /* Services */
@@ -227,32 +276,46 @@ h2:hover{
     z-index: 2;
     bottom: 62px;
     right: 46px;
+    font-family: 'Poppins';
 }
 
 /*Contact */
 
-.contact form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 22px;
-    width: 90%;
-    padding-bottom: 80px;
-    padding-top: 40px;
-    padding-left: 163px;
+
+.contact{     
+    margin-bottom: 60px;
 }
+
+.contact form{
+    margin-top: 40px;
+    display: grid;
+    justify-content: center;
+    grid-gap: 20px;
+    
+}
+
+.form_input, .form_select{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;     
+}
+
 .contact input{
     height: 59px;
-    min-width: 40%;
+    min-width: 45%;
     border-radius: 8px;
     flex-grow: 1;
-}
+    width: 300px;
+} 
+
 .contact select{
     height: 59px;
-    min-width: 40%;
+    min-width: 45%;
     border-radius: 8px;
     flex-grow: 1; 
-}
+    width: 300px;
+} 
+
 .contact textarea{
     width: 100%;
     height: 150px;    
@@ -265,5 +328,69 @@ h2:hover{
     color: white;
     font-size: 16px;
     border-radius: 10px;
+    margin: auto;    
 }
 
+/*footer*/
+
+.footer{
+    border-top: #00CF95 solid 1px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer_top{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer > div > p{
+    font-size: 28px;
+    color: #00CF95; 
+    font-weight: 500;
+}
+
+.footer a{
+    font-size: 15px;
+}
+
+.footer p{
+    text-align: center;
+    font-family: 'Raleway';
+}
+
+.footer li{
+    margin: 2px;
+}
+
+.footer .footer_redes{ 
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.footer .footer_menu{ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .footer_saludo{
+     padding: 20px;
+     font-size: 12px;     
+ }
+
+ .footer_lista_menu a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Poppins'; 
+ }
+
+ .footer_lista_menu a:hover{
+    border-bottom: 4px solid #6D0AD3;
+    border-radius: 2px;
+    color: #6D0AD3;
+ }

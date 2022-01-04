@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Raleway:wght@600&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="wrap">
         <header class="header">
             <figure>
-                Logo
+                <img src="./images/logo.png">
             </figure>
             <nav>
                 <ul>
@@ -41,18 +42,25 @@
                         y podras contactarme y contarme sobre ti.
                     </p>
                     <div class="lista_contactos">
-                        <button>Decargar CV</button>
-                        <div class="redes_sociales">
-                            imágenes o íconos de las redes sociales
-                        </div>
+                        <button>Decargar CV</button>                      
+                        <nav class="redes_sociales">
+                           <ul>
+                              <li><a href="#"><img src="./images/sobre_mi/icon-link.png"></a></li>
+                              <li><a href="#"><img src="./images/sobre_mi/icon-github.png"></a></li>
+                              <li><a href="#"><img src="./images/sobre_mi/icon-codepen.png"></a></li>
+                              <li><a href="#"><img src="./images/sobre_mi/icon-email.png"></a></li>
+                              <li><a href="#"><img src="./images/sobre_mi/icon-whatsap.png"></a></li>
+                           </ul>
+                        </nav>                        
                     </div>
                 </div>
-                <div>
-                    <figure class="profile">
+                <div class="profile">
+                    <figure>
                         <img src="./images/sobre_mi/sobre1.1.png">                       
-                    </figure>
-                    
-
+                    </figure>                    
+                    <figure>
+                        <img src="./images/sobre_mi/preferencia.png">
+                    </figure>                    
                 </div>               
             </section>
             <section class="download">
@@ -197,40 +205,61 @@
                     <div class="blog_articulo_5">
                         <p>Nos gusta escribir y compartir sobre tecnologia, diseño, tendencias, y muchas cosas mas. Si te gustaria recibir nuestras pubicaciones subscribete </p>
                         <div>
-                            <div>
+                            <div class="div_articulo5">
+                                <p>Email</p>
                                 <button>Suscribe</button>
                             </div>                            
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="contact">
-                
+            <section class="contact">                
                 <h2>CONTACT</h2>
                 <form action="#">
-                    <input type="text" placeholder="Nombre">
-                    <input type="text" placeholder="Teléfono">
-                    <select name="select1">
-                        <option value="1">Tipo de Proyecto</option>
-                    </select>
-                    <select name="select2">
-                        <option value="1">Presupuesto</option>
-                    </select>
-                    <textarea placeholder="Cuentanos mas"></textarea>
+                    <div class="form_input">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Teléfono">
+                    </div>
+                    <div class="form_select">
+                        <select name="select1">
+                            <option value="1">Tipo de Proyecto</option>
+                        </select>
+                        <select name="select2">
+                            <option value="1">Presupuesto</option>
+                        </select>
+                    </div>
+                    <textarea placeholder="Cuéntanos mas"></textarea>
                     <button>Enviar</button>
                 </form>
             
             </section>
         </main>
-        <footer>
-            <nav>
-                <a href="#">Sobre mi</a>
-                <a href="#">PORTAFOLIO</a>
-                <a href="#">Servicios</a>
-                <a href="#">Blog</a>
-                <a href="#">Contacto</a>
+        <footer class="footer">
+            <div class="footer_top">
+                <figure>
+                    <img src="./images/logo.png">
+                </figure>            
+                <p>GRACIAS<br>POR VISITARNOS</p>
+                <nav>
+                    <ul class="footer_redes">
+                        <li><a href="#"><img src="./images/sobre_mi/icon-link.png"></a></li>
+                        <li><a href="#"><img src="./images/sobre_mi/icon-github.png"></a></li>
+                        <li><a href="#"><img src="./images/sobre_mi/icon-codepen.png"></a></li>
+                        <li><a href="#"><img src="./images/sobre_mi/icon-email.png"></a></li>
+                        <li><a href="#"><img src="./images/sobre_mi/icon-whatsap.png"></a></li>
+                    </ul>
+                </nav>   
+            </div>
+            <nav class="footer_lista_menu">
+                <ul class="footer_menu">
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="#">Portafolio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
             </nav>
-
+            <p class="footer_saludo">Con <img src="./images/corazon.png"> desde Lima - Per&uacute;</p>
         </footer>
     </div>
 </body>
