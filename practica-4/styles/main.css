@@ -217,17 +217,21 @@ h2{
 
 .div_articulo5{
     margin-top: 20px;
-    width: 100%;
-    border: solid 0.5px;
-    border-radius: 5px;
+    width: 100%;    
     height: 50px; 
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-left: 10px;
+    align-items: center;   
     font-family: 'Raleway';
     font-size: 13px;
     font-weight: 400;
+}
+
+.div_articulo5 input{
+    height: 50px;
+    width: 100%;
+    border-top-left-radius:  5px;
+    border-bottom-left-radius: 5px;
 }
 
 .div_articulo5 button{
@@ -235,7 +239,9 @@ h2{
     width: 127px;
     background-color: #6D0AD3;
     font-size: 13px;
-    color: #EDE2FA;   
+    color: #EDE2FA;
+    border-top-right-radius:  5px;
+    border-bottom-right-radius: 5px;   
 }
 
 /* Services */
