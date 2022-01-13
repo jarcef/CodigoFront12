@@ -1,0 +1,35 @@
+/*Variables - colores */
+$color_primary: #00AF1C;
+$color_fuente: white;
+
+/*Variables - fuentes */
+$font_size_base: 62.5%;
+$font_size_subtitle: 2.4rem;
+$font_menu: 1.8rem;
+$font_parrafo: 1.6rem;
+
+/*header*/
+
+.header{
+    background: green;
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height: 99px;
+
+    a{
+        color: white;
+        font-size:3.2rem;
+    }
+    
+    .menu a{
+        font-size: $font_menu;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+}

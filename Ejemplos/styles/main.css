@@ -1,0 +1,29 @@
+/*Variables - colores */
+/*Variables - fuentes */
+/*header*/
+.header {
+  background: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1440px;
+  height: 99px;
+}
+.header a {
+  color: white;
+  font-size: 3.2rem;
+}
+.header .menu a {
+  font-size: 1.8rem;
+}
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
